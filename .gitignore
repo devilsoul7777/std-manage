@@ -1,0 +1,12 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+venv
+
+# Installer logs 
+pip-log.txt 
+pip-delete-this-directory.txt 
