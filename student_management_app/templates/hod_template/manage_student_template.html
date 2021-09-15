@@ -70,8 +70,6 @@
                                 <th>Start Year</th>
                                 <th>End Year</th>
                                 <th>Course</th>
-                                <th>Last Login</th>
-                                <th>Date Joined</th>
                                 <th>Action</th>
                                 </tr>
                             </thead>
@@ -88,8 +86,6 @@
                                 <td>{{ student.session_year_id.session_start_year }}</td>
                                 <td>{{ student.session_year_id.session_end_year }}</td>
                                 <td>{{ student.course_id.course_name }}</td>
-                                <td>{{ student.admin.last_login }}</td>
-                                <td>{{ student.admin.date_joined }}</td>
                                 <td>
                                     <a href="{% url 'edit_student' student.admin.id %}" class="btn btn-success">Edit</a> 
                                     <a href="{% url 'delete_student' student.admin.id %}" class="btn btn-danger">Delete</a>
