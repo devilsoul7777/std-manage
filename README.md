@@ -31,22 +31,11 @@ This is a Simple Student Management System Developed for Educational Purpose usi
 ## How to Install and Run this project?
 
 ### Pre-Requisites:
-1. Install Git Version Control
-[ https://git-scm.com/ ]
-
-2. Install Python Latest Version
-[ https://www.python.org/downloads/ ]
-
-3. Install Pip (Package Manager)
-[ https://pip.pypa.io/en/stable/installing/ ]
-
-*Alternative to Pip is Homebrew*
+1. Install Git 
+2. Install Python
+3. Install Pip 
 
 ### Installation
-**1. Create a Folder where you want to save the project**
-
-**2. Create a Virtual Environment and Activate**
-
 Install Virtual Environment First
 ```
 $  pip install virtualenv
@@ -107,11 +96,3 @@ Then Add Email, Username and Password
 *For HOD /SuperAdmin*
 Email: admin@gmail.com
 Password: admin
-
-*For Staff*
-Email: staff@gmail.com
-Password: staff
-
-*For Student*
-Email: student@gmail.com
-Password: student
